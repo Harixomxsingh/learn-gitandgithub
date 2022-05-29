@@ -33,3 +33,19 @@ or
 ```bash
 git checkout -b branchName
 ```
+
+## Github fork
+
+what is github fork and why we use the github fork?
+
+you can not directly add or edit file on any project in github so you need to fork it mean when you hit fork on any project in your account the project's copy added, so the fork does that copy the hole project and added to your profile
+
+## git clone
+
+git clone mean clone a github project
+
+```bash
+git clone url
+```
+
+so, when ever you fork any project that you want to contribute , so first step fork and then second step is clone the project
