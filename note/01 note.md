@@ -87,7 +87,7 @@ if you delete a file or commit something by mistake, you can un do the commit by
 
 ```bash
 
-git rest yourHashNo.(ajdfkjdfkadjfak)
+git reset yourHashNo.(ajdfkjdfkadjfak)
 
 ```
 
