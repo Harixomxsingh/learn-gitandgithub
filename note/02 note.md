@@ -25,7 +25,11 @@ you should always create a new branch and make changes with it , don't commit or
 so how to create a brach
 
 ```bash
+git branch branchName(test)
+```
 
+or
 
-
+```bash
+git checkout -b branchName
 ```
