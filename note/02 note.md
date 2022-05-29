@@ -49,3 +49,51 @@ git clone url
 ```
 
 so, when ever you fork any project that you want to contribute , so first step fork and then second step is clone the project
+
+# origin
+
+you may ask what is origin?
+
+so origin the name of you url origin represent of you github url, you can change your url name and set to what every you want but by **tradition** _origin_ the url name
+
+# upstream
+
+what is upstream?
+
+upstream is - from where you have form the project (mean - project or repository main url), that is know as upstream url
+
+```bash
+
+git remote add upstream <url>
+
+```
+
+and then
+
+```bash
+
+git remote -v // that show your url name and where the url and name linked
+
+```
+
+# Pull request
+
+what is pull request
+
+when you create a repository on your own copy by using fork. and you crete any change in your copy how do you make sure that what ever you change on your own copy that show in the main repository, so your request it via a "pull request"
+
+```bash
+git push upstream BranchName //give a error
+```
+
+it is not good to crete a request to main repository, because you don't have access to the repo, you are not a member or something in the main project
+
+but ........
+
+you have access to the origin url because it your repo (mean - it is copy to your account)
+
+```bash
+
+git push origin BranchName
+
+```
