@@ -75,3 +75,25 @@ and then
 git remote -v // that show your url name and where the url and name linked
 
 ```
+
+# Pull request
+
+what is pull request
+
+when you create a repository on your own copy by using fork. and you crete any change in your copy how do you make sure that what ever you change on your own copy that show in the main repository, so your request it via a "pull request"
+
+```bash
+git push upstream BranchName //give a error
+```
+
+it is not good to crete a request to main repository, because you don't have access to the repo, you are not a member or something in the main project
+
+but ........
+
+you have access to the origin url because it your repo (mean - it is copy to your account)
+
+```bash
+
+git push origin BranchName
+
+```
