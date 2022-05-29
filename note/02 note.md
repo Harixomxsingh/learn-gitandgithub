@@ -55,3 +55,23 @@ so, when ever you fork any project that you want to contribute , so first step f
 you may ask what is origin?
 
 so origin the name of you url origin represent of you github url, you can change your url name and set to what every you want but by **tradition** _origin_ the url name
+
+# upstream
+
+what is upstream?
+
+upstream is - from where you have form the project (mean - project or repository main url), that is know as upstream url
+
+```bash
+
+git remote add upstream <url>
+
+```
+
+and then
+
+```bash
+
+git remote -v // that show your url name and where the url and name linked
+
+```
