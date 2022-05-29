@@ -49,3 +49,9 @@ git clone url
 ```
 
 so, when ever you fork any project that you want to contribute , so first step fork and then second step is clone the project
+
+# origin
+
+you may ask what is origin?
+
+so origin the name of you url origin represent of you github url, you can change your url name and set to what every you want but by **tradition** _origin_ the url name
