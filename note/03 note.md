@@ -84,6 +84,13 @@ git remote -v
 
 if it not set go upper i tech there!
 
+
+you can also use these
+
+```bash
+git push origin -u main YourBranchName
+```
+
 ## fetch (3rd step)
 
 ```bash
